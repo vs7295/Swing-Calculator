@@ -1,4 +1,21 @@
+
+---
+
+### **`.gitignore`**
+
+```gitignore
+# Java class files
 *.class
-.vscode/
-.idea/
+
+# IDE files
 *.iml
+.idea/
+.vscode/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
